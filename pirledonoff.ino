@@ -7,7 +7,7 @@ unsigned long time=1000;
 
 void setup() {
   // put your setup code here, to run once:
-  pinMode(3,INPUT);
+  pinMode(S,INPUT);
   pinMode(7,OUTPUT);
   Serial.begin(9600);
 }
